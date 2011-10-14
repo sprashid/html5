@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+
+<audio src="underTheCarpet.mp3" controls="controls">
+Your browser does not support the audio element.
+</audio>
+
+<form>
+<input type="text" value="value" /><br/>
+<input type="email" value="example@example.com" name="user_email" /><br/>
+Points: <input type="number" name="points" min="1" max="10" /></br>
+<input type="range" name="points" min="1" max="50" /><br/>
+Date: <input type="date" name="user_date" /><br/>
+Week: <input type="week" name="user_date" />
+Month: <input type="month" name="user_date" /><br/>
+Color: <input type="color" name="user_color" />
+<datalist id="url_list">
+<option label="W3Schools" value="http://www.w3schools.com" />
+<option label="Google" value="http://www.google.com" />
+<option label="Microsoft" value="http://www.microsoft.com" />
+</datalist>
+</form>
+
+</body>
+</html>
+
